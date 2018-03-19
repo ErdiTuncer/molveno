@@ -10,7 +10,8 @@ Introduction and instructions for the Molveno repository goes here:
 ## Setup the environment
 * See [how to install conda](https://conda.io/docs/user-guide/install/index.html) on your OS
 * Create and switch to the virtual environment
-* Clone the molveno repository 
+* Clone the molveno repository
+* Migrate any changes to the database
 
 Setup environment.
 ```sh
@@ -29,7 +30,12 @@ $ which python
 Clone the repository to your project folder.
 ```sh
 $ cd <project-directory>
-$ git clone https://github.com/MichaelAkkermans/molveno.git
+$ git clone https://github.com/MichaelAkkermans/molveno.git .
 ```
 
+Migrate
+```sh
+cd <project-directory>
+python manage.py migrate
+```
 
