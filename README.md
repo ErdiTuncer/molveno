@@ -39,3 +39,6 @@ cd <project-directory>
 python manage.py migrate
 ```
 
+Development database credentials  
+admin  
+Password321
