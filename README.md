@@ -32,13 +32,7 @@ Clone the repository to your project folder.
 $ cd <project-directory>
 $ git clone https://github.com/MichaelAkkermans/molveno.git .
 ```
-
-Migrate
-```sh
-cd <project-directory>
-python manage.py migrate
-```
-
+s
 Development database credentials  
 admin  
 Password321
